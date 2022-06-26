@@ -76,13 +76,12 @@ model_params:
 # Parameters of training
 train_params:
   # Number of training epochs 
-  num_epochs: 50
+  num_epochs: 100
   # For better i/o performance when number of videos is small number of epochs can be multiplied by this number.
   # Thus effectivlly with num_repeats=100 each epoch is 100 times larger. 
-  # num_repeats: 150
   num_repeats: 50
   # Drop learning rate by 10 times after this epochs 
-  epoch_milestones: [30, 45]
+  epoch_milestones: [50, 90]
   # Initial learing rate for all modules
   lr_generator: 2.0e-4
   # batch_size: 28
