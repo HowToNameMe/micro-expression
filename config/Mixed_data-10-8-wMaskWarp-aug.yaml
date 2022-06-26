@@ -9,7 +9,7 @@
 # video id.
 dataset_params:
   # Path to data, data can be stored in several formats: .mp4 or .gif videos, stacked .png images or folders with frames.
-  root_dir: /home/data1/xieguochen/Competition/MEGC2022/data/Mixed_dataset
+  root_dir: ./dataset/Mixed_dataset
   # Image shape, needed for staked .png format.
   frame_shape: null
   # In case of TaiChi single video can be splitted in many chunks, or the maybe several videos for single person.
