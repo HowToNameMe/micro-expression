@@ -123,7 +123,7 @@ train_params:
     # Weights for bg loss.
     bg: 10
     # Weights for warp loss.
-    fg_warp_loss: 100
+    fg_warp_loss: 50
     # Weights for fg loss.
     fg: 0
 
