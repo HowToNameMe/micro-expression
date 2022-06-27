@@ -1,4 +1,4 @@
-# [ACM MM2022] Micro Expression Generation with Thin-plate Spline Motion Model and Face Parsing
+# Micro Expression Generation with Thin-plate Spline Motion Model and Face Parsing
 
 ### Installation
 
