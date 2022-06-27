@@ -53,7 +53,7 @@ In our method, all the configurations are contained in the file ```config/Mixed_
    
    the root of the preprocessed dataset is `./dataset/Mixed_data`
 
-6. Download the [train_mask.tar.gz](https://drive.google.com/file/d/1nv5auh3hYdQK9OiiUH_8ts7LnF7a0bLW/view?usp=sharing), and put it in the `./dataset/Mixed_data/train_mask` and `./dataset/Mixed_data/test_mask`
+6. Download the [train_mask.tar.gz](https://drive.google.com/file/d/1nv5auh3hYdQK9OiiUH_8ts7LnF7a0bLW/view?usp=sharing), and put it in the `./dataset/Mixed_data/train_mask`
 
 ## Training
 
@@ -76,7 +76,7 @@ CUDA_VISIBLE_DEVICES=0 python demo.py \
     --result_video './ckpt/relative' \
     --mode 'relative'
 ```
-
+Our provided model can be downloaded [here](https://drive.google.com/file/d/1zdN-mPwWANMUnPQCv1Ho41JlsRtl4iqv/view?usp=sharing)
 The final results are in the folder `./ckpt/relative` . The desired model can be downloaded here
 
 # Acknowledgments
