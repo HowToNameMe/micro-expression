@@ -90,12 +90,7 @@ if __name__ == "__main__":
         print("Training...")
         # train(config, inpainting, kp_detector, bg_predictor, dense_motion_network, opt.checkpoint, log_dir, dataset)
         train(config, inpainting, kp_detector, bg_predictor, fg_predictor, dense_motion_network, opt.checkpoint, log_dir, dataset)
-    elif opt.mode == 'train_avd':
-        print("Training Animation via Disentaglement...")
-        train_avd(config, inpainting, kp_detector, bg_predictor, fg_predictor, dense_motion_network, avd_network, opt.checkpoint, log_dir, dataset)
     elif opt.mode == 'reconstruction':
         print("Reconstruction...")
         reconstruction(config, inpainting, kp_detector, bg_predictor, dense_motion_network, opt.checkpoint, log_dir, dataset)
-    # elif opt.mode == 'animate':
-    #     print("Animate...")
-    #     animate(config, generator, region_predictor, avd_network, opt.checkpoint, log_dir, dataset)
+    
