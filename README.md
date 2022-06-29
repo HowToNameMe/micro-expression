@@ -77,7 +77,7 @@ CUDA_VISIBLE_DEVICES=0 python demo.py \
     --mode 'relative'
 ```
 Our provided model can be downloaded [here](https://drive.google.com/file/d/1zdN-mPwWANMUnPQCv1Ho41JlsRtl4iqv/view?usp=sharing)
-The final results are in the folder `./ckpt/relative` . The desired model can be downloaded here
+The final results are in the folder `./ckpt/relative` .
 
 # Acknowledgments
 
