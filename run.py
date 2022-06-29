@@ -16,7 +16,6 @@ from modules.dense_motion import DenseMotionNetwork
 from modules.avd_network import AVDNetwork
 import torch
 from train import train
-from train_avd import train_avd
 from reconstruction import reconstruction
 from animate import animate
 import os 
