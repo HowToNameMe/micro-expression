@@ -1,6 +1,6 @@
 ### ---------------------------training-------------------------------
 # mask warp 
-CUDA_VISIBLE_DEVICES=0,1,2,3 python run.py --config config/Mixed_data-10-8-wMaskWarp.yaml 
+CUDA_VISIBLE_DEVICES=0,1,2,3 python run.py --config config/Mixed_data-10-8-wMaskWarp-aug.yaml 
 
 ### ---------------------------generation-------------------------------
 ## mask warp
