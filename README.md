@@ -49,11 +49,13 @@ In our method, all the configurations are contained in the file ```config/Mixed_
    cd dataset
    python crop.py
    python copy_.py
+   mv Mixed_dataset_test.csv ./Mixed_dataset
+   cd ..
    ```
    
-   the root of the preprocessed dataset is `./dataset/Mixed_data`
+   the root of the preprocessed dataset is `./dataset/Mixed_dataset`
 
-6. Download the [train_mask.tar.gz](https://drive.google.com/file/d/1nv5auh3hYdQK9OiiUH_8ts7LnF7a0bLW/view?usp=sharing), and put it in the `./dataset/Mixed_data/train_mask`
+6. Download the [train_mask.tar.gz](https://drive.google.com/file/d/1nv5auh3hYdQK9OiiUH_8ts7LnF7a0bLW/view?usp=sharing), and put it in the `./dataset/Mixed_dataset/train_mask`
 
 ## Training
 
